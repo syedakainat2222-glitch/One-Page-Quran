@@ -18,7 +18,7 @@ export default function QuranScreen() {
     return (
       <WebView
         originWhitelist={['*']}
-        source={{ uri: pdfAsset }}
+        source={pdfAsset}
         style={{ flex: 1 }}
       />
     );
